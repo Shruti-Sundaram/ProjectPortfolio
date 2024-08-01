@@ -262,7 +262,7 @@ html {
             <p></p>
             <p>
               <a href="documents/DSML_Report.pdf" class="btn btn-primary" target="_blank">Documentation</a>
-              <a href="https://github.com/Shruti-Sundaram/Pump-it-up-Mining-the-water-table" class="btn btn-secondary">Source Code</a>
+              <a href="https://github.com/Shruti-Sundaram/Pump-it-up-Mining-the-water-table" class="btn btn-secondary" target="_blank">Source Code</a>
             </p>
             <p class="card-text">Developed a predictive model to classify water pumps in Tanzania as functional, needing repair, or non-functional using data from Taarifa and the Tanzanian Ministry of Water.
               Implemented comprehensive data preprocessing, including cleaning, outlier handling, one-hot encoding, discretization, and normalization.
@@ -275,6 +275,7 @@ html {
           </div>
         </div>
       </div>
+
       <!-- Project 2 -->
       <div class="col-md-6 mb-4">
         <div class="card">
@@ -283,32 +284,65 @@ html {
             <h5 class="card-title"><b>FoodieFriend Chatbot</b></h5>
             <p>
               <a href="documents/Shruti_Sundaram_Chatbot_Report.pdf" class="btn btn-primary" target="_blank">Documentation</a>
-              <a href="https://github.com/Shruti-Sundaram/Chatbot-using-python" class="btn btn-secondary">Source Code</a>
+              <a href="https://github.com/Shruti-Sundaram/Chatbot-using-python" class="btn btn-secondary" target="_blank">Source Code</a>
             </p>
             <p class="card-text">Designed a comprehensive chatbot system capable of handling user interactions, menu browsing, order placement, and payment processing.</p>
             <p>Technologies used include Natural Language Processing (NLP), Python, NLTK, Jaccard Similarity, User-Centric Design Principles, Responsible Research and Innovation (RRI).</p>
             <p>• <b>Intent Matching:</b> Implemented intent identification using Jaccard similarity to accurately interpret user commands and generate appropriate responses.</p>
             <p>• <b>Identity Management:</b> Integrated user identity tracking to personalize interactions by extracting and storing user names using POS tagging.</p>
             <p>• <b>Question Answering:</b> Developed a question-answering module leveraging a pre-processed dataset to respond to user queries.</p>
-            <p>• <b>Small Talk:</b> Created a small talk functionality with a dataset of predefined conversational phrases for natural user interaction, enhancing user experience with conversational responses.</p>
+            <p>• <b>Small Talk:</b> Created a small talk functionality with a dataset of predefined conversational phrases for natural user interaction, enhancing user experience with conversational responses.</p> &nbsp;
           </div>
         </div>
       </div>
+
       <!-- Project 3 -->
-<!--       <div class="col-md-6 mb-4">
+      <div class="col-md-6 mb-4">
         <div class="card">
-          <img src="images/pics/chatbot.png" class="card-img-top" alt="Project 3">
+          <img src="images/pics/namegen.jpg" class="card-img-top" alt="Project 3">
           <div class="card-body">
-            <h5 class="card-title">Project 3</h5>
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed nisl erat. Sed et purus ornare, eleifend tellus ut, fermentum arcu.</p>
-            <a href="#" class="btn btn-primary">Blog Post</a>
-            <a href="#" class="btn btn-secondary">Source Code</a>
-          </div> -->
+            <h5 class="card-title"><b>NameGenerator App</b></h5>
+            <p>
+              <a href="https://namegeneratorapp-byshruti.streamlit.app/" class="btn btn-primary" target="_blank">View App</a>
+              <a href="https://github.com/Shruti-Sundaram/NameGeneratorApp/tree/master" class="btn btn-secondary" target="_blank">Source Code</a>
+            </p>
+            <p class="card-text">Created a Streamlit-based Name Generator application that leverages advanced language model capabilities through the Hugging Face Hub. The application allows users to generate a list of names based on specified parameters such as the number of names, origin, gender, and optional starting alphabet.</p>
+            <p>Key features and technologies used in this project include:</p>
+            <p>• <b>Streamlit:</b> Built an interactive web interface for user inputs and displaying results.
+            </p>
+            <p>• <b>LangChain:</b> Employed LangChain for creating and managing prompt templates.
+            </p>
+            <p>• <b>Hugging Face Inference API:</b> Integrated with the Hugging Face Inference Client to interact with the Mistral-7B-Instruct-v0.3 model.</p>
+            <p>• <b>Environment Management:</b> Utilized python-dotenv to securely load API tokens from a .env file.</p>
+            <p> &nbsp;</p>
+            <p> &nbsp;</p>
+            <p> &nbsp; </p>
+            <p> &nbsp; </p>
+          </div>
         </div>
       </div>
+
+
+<!-- Project 4 -->
+<div class="col-md-6 mb-4">
+  <div class="card">
+    <img src="images/pics/cvapp.jpg" class="card-img-top" alt="Project 4">
+    <div class="card-body">
+      <h5 class="card-title"><b>Attendance App</b></h5>
+      <p>
+        <!-- <a href="https://namegeneratorapp-byshruti.streamlit.app/" class="btn btn-primary" target="_blank">View App</a> -->
+        <a href="https://github.com/Shruti-Sundaram/AttendanceApp/tree/main" class="btn btn-secondary" target="_blank">Source Code</a>
+      </p>
+      <p class="card-text">Developed a facial recognition-based attendance management system enabling student registration and attendance tracking with seamless integration and accurate predictions.</p>
+      <p>Utilized Python, OpenCV, Keras, and Pandas.</p>
+      <p>• <b>Registration Process:</b> Created a module for student registration where users enter their name and unique Student ID. The system verifies the uniqueness of the Student ID and captures 20 facial photos for model training.</p>
+      <p>• <b>Model Training:</b> Trained the VGG16 model on the captured facial images to enhance recognition accuracy, saving the model as fine_tuned_VGG16_model.h5</p>
+      <p>• <b>Data Preparation:</b> Organized the dataset by candidate names, assigned labels saved to candidate_labels.csv, and preprocessed the images for model training.</p>
+      <p>• <b>Attendance Recording:</b> Developed a module that captures a single photo via webcam, predicts the Student ID using the trained model, and records the ID and timestamp in Attendance Record.csv</p>
+      <p>• <b>Prediction Process:</b> Loaded the trained model and label map, processed new images, and predicted the Student ID, translating the label into a candidate ID using candidate_labels.csv</p>
     </div>
   </div>
-</section>
+</div>
 
 
 
